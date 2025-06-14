@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IASC USP - Alquimia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("image6.png");
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-image: url("image6.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 10px;
+    }
+
+    header img {
+      height: 120px;
+    }
+
+    nav {
+     border-radius: 20px;
+     border: 2px solid #6a1b9a;
+     background-image: url("image6.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 7px 15px; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+    }
+
+
+    nav a {
+     margin: 0;
+     text-decoration: none;
+     color: #6a1b9a;
+     font-weight: bold;
+     font-size: 14.5px; 
+     padding: 4px 8px;
+     background-color: transparent;
+     border-radius: 10px;
+     transition: background-color 0.3s ease;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 5%;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #9c27b0;
+      color: white;
+      padding: 20px;
+      border-radius: 20px;
+      max-width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image4.png" alt="Logo IASC USP">
+    <nav>
+      <a href="#">BIBLIOTECA</a>
+      <a href="#">GRADUAÇÃO</a>
+      <a href="#">PÓS</a>
+      <a href="#">NOTÍCIAS</a>
+      <a href="#">SOBRE</a>
+    </nav>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <img src="image.png" alt="Laboratório de Alquimia">
+      <p>Pesquisa revela mistérios do laboratório de alquimia de cientista do século 16</p>
+    </div>
+    <div class="card">
+      <img src="image2.png" alt="O Alquimista Paulo Coelho">
+      <p>Tese de doutorado conecta alquimia clássica à obra de Paulo Coelho</p>
+    </div>
+    <div class="card">
+      <img src="image3.png" alt="Alkahest Royal Society">
+      <p>Redescoberta de manuscritos sobre o alkahest na Royal Society</p>
+    </div>
+  </section>
+</body>
+</html>
