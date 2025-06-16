@@ -1,0 +1,475 @@
+
+
+/* CABEÇALHO PRESSETS*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  color:inherit
+  
+}
+body{
+  
+  z-index: 1;
+  overflow-x: hidden;
+  
+  
+}
+@font-face {
+   font-family: 'boa';
+   src: url('fonts/minecraft-enchantment.ttf') format('opentype');
+   font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+   font-family: 'beach';
+   src: url('fonts/Beachfly\ Free\ Trial.otf') format('opentype');
+   font-weight: normal;
+    font-style: normal;
+}
+body::before{
+  background-image: url('imagens/pentagrama.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+   z-index: -1;
+   content: '';
+   width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.luz::before{
+  filter: brightness(0.5);
+
+  transition:0.3s ease ;
+  content: '';
+
+}
+
+@font-face{
+  font-family: 'arcane';
+  src: url('fonts/Arcane\ Nine.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+nav{
+display: grid;
+grid-template-columns: 300px 300px;
+gap: 2%;
+}
+.Irhome{
+    margin-top: 5%;
+}
+#imagemIasc{
+    width: 70%;
+    height: 100%;
+
+
+}
+.elementosNav{
+  margin: 0%;
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0.603);
+  
+  border-radius: 10px;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 3% 3% 3% 3% 3% 3%;
+    gap: 15%;
+    height: 15%;
+    padding-right: 15%;
+    width: 730px;
+   
+     border: 1px solid transparent;
+     font-size: 20px;
+     font-family: 'arcane';
+      font-weight: bold;
+    transition: 1s ease 0.3s;
+    opacity: 0.5;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+
+}
+
+.navbar:hover{
+  
+ 
+  background-color: rgba(255, 255, 255, 0.781);
+ 
+  
+  border: 1px solid blueviolet;
+    color: blueviolet;
+     transition: 0.3s ease;
+     opacity: 1;
+     display: grid;
+     
+     
+}
+#becker{
+  opacity: 0;
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  top: 1%;
+  left: 17.6%;
+  transform: translateX(0px);
+ transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+}
+#segundo{
+  margin: 0%;
+  padding: 0%;
+}
+
+#primeiro:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+#segundo:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+#terceiro:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+#quarto:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+#quinto:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+#sexto:hover{
+
+  text-shadow: 2px 1px 2px violet;
+  transition: 0.3s ease;
+
+}
+
+/* CARD */
+
+.containerCard{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px 300px 10px;
+  gap: 3%;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 50px;
+  align-items: center;
+  transform: translateX(40%);
+
+}
+.card{
+ 
+  background-color: blueviolet;
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: 20px 30px 30px  rgb(139, 0, 182);
+
+}
+.card{
+  background-color: blueviolet;
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+/* CARD1 */
+#card1{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+
+}
+#humun{
+  margin-top: 5%;
+
+  width: 250px;
+  height: 250px;
+} 
+#humunP{
+  margin: 0%;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'arcane';
+ 
+}
+.titulo{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 30px rgb(255, 151, 15);
+  
+filter: brightness(0.4);
+  text-align: center;
+  opacity: 1;
+     background: linear-gradient(45deg, rgb(126, 0, 175), rgb(255, 204, 38), rgb(255, 165, 31), rgb(255, 179, 38), rgb(126, 0, 175), rgb(255, 136, 38), rgb(126, 0, 175));
+  font-family: 'boa';
+  transition: 0.5s ease;
+   background-size: 400% 100%;
+  
+  /* Chamando a animação que definimos acima */
+  animation: degrades 20s linear infinite alternate;
+  
+  /* A mágica para o fundo preencher apenas o texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+.card:hover .titulo {
+  filter: brightness(1);
+  text-shadow: 1px 1px 30px rgb(255, 199, 13);
+  /* Todos os estilos que você tinha no seu .titulo:hover original */
+  background: linear-gradient(45deg, rgb(126, 0, 175), rgb(255, 204, 38), rgb(255, 166, 31), rgb(255, 179, 38), rgb(126, 0, 175), rgb(255, 136, 38), rgb(126, 0, 175));
+  opacity: 1;
+  background-size: 400% 100%;
+  
+  /* Chamando a animação que definimos acima */
+  animation: degrade 10s linear infinite alternate;
+  
+  /* A mágica para o fundo preencher apenas o texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Troca da fonte ao passar o mouse */
+  font-family: 'arcane', sans-serif;
+}
+.titulo_pagina{
+   color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 30px rgb(255, 151, 15);
+  
+filter: brightness(1);
+  text-align: center;
+  opacity: 1;
+     background: linear-gradient(45deg, rgb(255, 145, 0), rgb(255, 204, 38), rgb(255, 165, 31), rgb(255, 179, 38), rgb(126, 0, 175), rgb(255, 136, 38), rgb(255, 145, 0));
+  font-family: 'arcane';
+  transition: 0.5s ease;
+   background-size: 400% 100%;
+  
+  /* Chamando a animação que definimos acima */
+  animation: degrades2 10s linear infinite alternate;
+  
+  /* A mágica para o fundo preencher apenas o texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.conteudo{
+  display: grid;
+  grid-template-columns: 70%;
+  gap: 10px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  color: blueviolet;
+  text-shadow: 1px 1px 1px rgb(255, 218, 6);
+  font-size: 20px;
+  font-family: 'beach';
+}
+
+
+/* CARD2 */
+#card2{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+
+}
+#arcano{
+   margin-top: 5%;
+
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+#arcanoP{
+   margin: 0%;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'arcane';
+}
+
+/* card3 */
+
+#card3{
+  display: grid;
+   
+grid-template-columns: 250px;
+justify-content: center;
+
+
+}
+
+#alquimia{
+   margin-top: 5%;
+
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+#alquimiaP{
+
+    margin: 0%;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'arcane';
+}
+
+/* CARD 4 */
+#card4{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+transform: translateX(1000%);
+opacity: 0;
+
+}
+#card5{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+transform: translateX(1000%);
+opacity: 0;
+
+}
+#card6{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+transform: translateX(1000%);
+opacity: 0;
+
+}
+#card7{
+display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+transform: translateX(1000%);
+opacity: 0;
+
+}
+
+.sumir{
+  display: none;
+}
+.displayCard{
+
+   display: grid;
+grid-template-columns: 250px;
+justify-content: center;
+}
+
+
+#setaDireita{
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ right: 600px;
+ text-shadow: 2px 1px 2px violet;
+ opacity: 0.5;
+ transition: 0.8s ease;
+
+ color: white;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: 'arcane';
+ cursor: pointer;
+ transition: 2s ease;
+}
+#setaDireita:hover{
+  opacity: 1;
+  filter: brightness(1);
+  filter: drop-shadow(3px 2px 6px rgb(255, 187, 0));
+  transition: 0.3s ease;
+  text-shadow: 2px 1px 2px white;
+}
+
+/* footer */
+
+footer{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  background-color: blueviolet;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+
+}
+
+/* animação */
+
+@keyframes degrade{
+
+  10%{
+    background-position-x: 30%;
+    
+  }
+  100%{
+   background-position-x: 400%;
+  }
+}
+@keyframes degrades{
+
+  10%{
+    background-position-x: 60%;
+    
+  }
+  100%{
+   background-position-x: 400%;
+  }
+}
+
+@keyframes degrades2{
+
+  10%{
+    background-position-x: 60%;
+    
+  }
+  100%{
+   background-position-x: 400%;
+  }
+  
+}
