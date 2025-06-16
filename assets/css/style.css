@@ -92,3 +92,54 @@ body {
   border-radius: 15px;
   margin-bottom: 15px;
 }
+@font-face {
+  font-family: 'Arcane';
+  src: url('../fonts/Arcane Nine.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Minecraft';
+  src: url('../fonts/minecraft-enchantment.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Beachfly';
+  src: url('../fonts/Beachfly Free Trial.otf') format('opentype');
+}
+
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.course-card {
+  background-color: #673ab7;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.course-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.course-content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+  font-family: 'Beachfly', Arial, sans-serif;
+}
+.course-content h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Arcane', sans-serif;
+}
+.course-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
