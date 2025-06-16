@@ -143,3 +143,16 @@ body {
   margin-bottom: 15px;
   line-height: 1.6;
 }
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+}
