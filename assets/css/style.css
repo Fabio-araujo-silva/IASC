@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #6725e0; /* roxo claro */
+  color: #6725e0;
 }
 
 .logo {
@@ -60,7 +60,6 @@ header {
   min-height: 120px;
 }
 
-/* ---- News page styles ---- */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
