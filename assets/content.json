@@ -1,0 +1,40 @@
+{
+  "header": {
+    "nav": [
+      {"text": "BIBLIOTECA", "href": "#biblioteca"},
+      {"text": "GRADUA\u00c7\u00c3O", "href": "#graduacao"},
+      {"text": "P\u00d3S", "href": "#pos"},
+      {"text": "NOT\u00cdCIAS", "href": "noticias.html"},
+      {"text": "SOBRE", "href": "#sobre"}
+    ],
+    "logo": {
+      "src": "assets/images/logo.webp",
+      "link": "https://www.usp.br",
+      "alt": "Logo USP"
+    }
+  },
+  "hero": {
+    "messages": [
+      "Bem-vindo ao Instituto de Alquimia",
+      "Premiado internacionalmente como melhor instituto da am\u00e9rica latina",
+      "P\u00f3s-Gradua\u00e7\u00e3o de Excel\u00eancia"
+    ]
+  },
+  "news": [
+    {
+      "image": "assets/images/image.webp",
+      "alt": "Laborat\u00f3rio de Alquimia",
+      "text": "Pesquisa revela mist\u00e9rios do laborat\u00f3rio de alquimia de cientista do s\u00e9culo 16"
+    },
+    {
+      "image": "assets/images/image2.webp",
+      "alt": "O Alquimista Paulo Coelho",
+      "text": "Tese de doutorado conecta alquimia cl\u00e1ssica \u00e0 obra de Paulo Coelho"
+    },
+    {
+      "image": "assets/images/image3.webp",
+      "alt": "Alkahest Royal Society",
+      "text": "Redescoberta de manuscritos sobre o alkahest na Royal Society"
+    }
+  ]
+}
