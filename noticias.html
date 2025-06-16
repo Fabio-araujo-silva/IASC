@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASC USP - Alquimia</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <style>
     body {
       margin: 0;
@@ -15,48 +16,6 @@
       background-position: center;
     }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      background-image: url("assets/images/image6.webp");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin: 10px;
-    }
-
-    header img {
-      height: 120px;
-    }
-
-    nav {
-     border-radius: 20px;
-     border: 2px solid #6a1b9a;
-     background-image: url("assets/images/image6.webp");
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     padding: 7px 15px; 
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 15px;
-    }
-
-
-    nav a {
-     margin: 0;
-     text-decoration: none;
-     color: #6a1b9a;
-     font-weight: bold;
-     font-size: 14.5px; 
-     padding: 4px 8px;
-     background-color: transparent;
-     border-radius: 10px;
-     transition: background-color 0.3s ease;
-    }
 
     .cards {
       display: flex;
@@ -84,16 +43,7 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="assets/images/image4.webp" alt="Logo IASC USP">
-    <nav>
-      <a href="#">BIBLIOTECA</a>
-      <a href="#">GRADUAÇÃO</a>
-      <a href="#">PÓS</a>
-      <a href="#">NOTÍCIAS</a>
-      <a href="#">SOBRE</a>
-    </nav>
-  </header>
+  <div id="header-placeholder"></div>
 
   <section class="cards">
     <div class="card">
@@ -109,5 +59,6 @@
       <p>Redescoberta de manuscritos sobre o alkahest na Royal Society</p>
     </div>
   </section>
+  <script src="assets/js/header.js"></script>
 </body>
 </html>
