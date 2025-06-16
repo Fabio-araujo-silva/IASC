@@ -2,8 +2,8 @@
   "header": {
     "nav": [
       {"text": "BIBLIOTECA", "href": "#biblioteca"},
-      {"text": "GRADUA\u00c7\u00c3O", "href": "#graduacao"},
-      {"text": "P\u00d3S", "href": "#pos"},
+      {"text": "GRADUA\u00c7\u00c3O", "href": "courses.html"},
+      {"text": "P\u00d3S", "href": "course.html"},
       {"text": "NOT \u00cdCIAS", "href": "noticias.html"},
       {"text": "SOBRE", "href": "#sobre"}
     ],
