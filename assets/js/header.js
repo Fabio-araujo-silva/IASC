@@ -1,4 +1,3 @@
-// Injects the site header on pages reading data from content.json
 async function loadHeader() {
   const container = document.getElementById('header-placeholder');
   if (!container) return;
